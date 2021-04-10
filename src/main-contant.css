@@ -1,0 +1,216 @@
+.content {
+    padding-top: 100px;
+    padding-bottom: 95px;
+    width: 100%;
+}
+
+.row-columns {
+    padding: 0 20px;
+}
+
+.content-title {
+    padding-top: 50px;
+    padding-bottom: 70px;
+   
+}
+
+.content-title > h3 {
+    width: 80%; 
+    font-size: 26px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #256245;
+}
+
+.theme-diet{
+    padding: 0 1% 40px;
+    color: #51a51f;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.theme-diet > .col-lg-9 {
+
+}
+
+.theme-diet-h4 {
+    padding-top: 2px;
+}
+
+.theme-diet-h4-under{
+    padding-top: 14px;
+}
+
+/* Blog */
+
+
+.blog-container > [class*="col-"] {
+    padding: 0 10px;
+}
+.blog {
+    background-image: url(img/dietitian3-section-bg1.png);
+    width: 100%;
+    background-repeat: repeat;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.blog-h3 {
+    width: 50%;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #256245;
+    margin-bottom: 60px;
+}
+
+/* .blog-1 > img, .blog-3 > img, .blod-1-user, .blod-3-user {
+    margin-left: 10px;
+}
+.blog-2 > img, .blog-4 > img, .blod-2-user, .blod-4-user{
+    margin-left: -10px;
+} */
+
+.blog-1, .blog-2, .blog-3, .blog-4 {
+    position: relative;
+    padding: 0 10px;
+}
+
+.blog-1 > img, .blog-2 > img, .blog-3 > img, .blog-4 > img {
+    width: 100%;
+}
+
+.blod-1-user, .blod-2-user, .blod-3-user, .blod-4-user {
+    position: relative;
+    width: 85%;
+    background-color: #fff;
+    top: -55px;
+    padding: 25px 35px;
+    float: none;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.categories-tag {
+    display: inline-block;
+    padding: 0 5px 5px 0;
+    color: #a8a8a8;
+    margin-bottom: 28px;
+}
+
+.read-more{
+    position: relative;
+    left: 70%;
+    margin-top: 5px;
+}
+.read-more > a {
+    color: #b4afaf;
+    background-color: #f0eaea;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 4px 18px;
+}
+
+.read-more > a:hover {
+    background-color: #afeccd;
+    color: white;
+}
+
+.categories-tag > a{
+    color: rgba(0,0,0,.6);
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.post-categories > li > a:hover {
+    color: rgb(44, 44, 44);
+    background-color: #d6d5d5;
+}
+
+.entry-title {
+    color: #256245;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.entry-title:hover {
+    color: #41a072;
+    cursor: pointer;
+}
+
+.post-excerpt {
+    margin-bottom: 15px;
+    color: #7f9b8c;
+}
+
+.line {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.autor {
+    position: relative;
+    top: 6px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.name > a {
+    color: #51a51f;
+    text-decoration: none;
+    margin-right: 10px
+}
+
+.name > a:hover {
+    color: #326b11;
+    text-decoration: underline;
+}
+
+.icon-clock {
+    position: relative;
+    top: 3px;
+    opacity: 0.5;
+    margin-right: 6px;
+}
+
+.date {
+    color: #a8a8a8;
+}
+
+.likes {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    padding: 4px 13px;
+    border-radius: 20px;
+    background-color: #272727;
+    z-index: 2;
+}
+
+.hurt-icon {
+    position: relative;
+    top: 4px;
+    margin: 0 3px;
+}
+
+.hurt-icon:hover {
+    cursor: pointer;
+
+}
+
+.counter {
+    margin: 0 4px;
+    color: rgb(187, 186, 186);
+}
