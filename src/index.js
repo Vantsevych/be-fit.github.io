@@ -1,14 +1,6 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
 
-// const h1 = React.createElement("h1",{
-//   id:test
-// },"Hello world");
-
-
-
-// JSX
-const h1 = <h1 id="test2">Hello</h1>
-
-ReactDOM.render(h1,document.getElementById("root"))
+ReactDOM.render(<App/>,document.getElementById("root"))
