@@ -1,9 +1,10 @@
 import React from 'react'
+import portrait from './portrait.jpg'
 
 const Slider = () => {
     return (
         <div className="slider">
-            <img src="portrait-woman-with-long-brown-hair-looking-camera-with-green-apple-hand-isolated-white.jpg"
+            <img src={portrait}
                 alt="" />
         </div>
     )

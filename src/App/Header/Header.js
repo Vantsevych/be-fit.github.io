@@ -9,7 +9,7 @@ const Header = () => {
         <header className="header">
             <div className="container container-menu">
                 <div className="row row-menu">
-                    <div className="col-lg-3 logo">
+                    <div className="col-lg-3 logo-icon">
                         <Logo/>
                     </div>
                     <div className="col-lg-9 menu">
