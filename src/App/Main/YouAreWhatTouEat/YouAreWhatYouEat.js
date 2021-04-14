@@ -1,13 +1,7 @@
 import React from 'react'
 
-import icon1 from './icon1.png'
-import icon2 from './icon2.png'
-import icon3 from './icon3.png'
-import icon4 from './icon4.png'
-import icon5 from './icon5.png'
-import icon6 from './icon6.png'
-import icon7 from './icon7.png'
-import icon8 from './icon8.png'
+import list from './list'
+import YouAreWhatYouEatItem from './YouAreWhatYouEatItem'
 
 
 
@@ -20,20 +14,24 @@ const YouAreWhatYouEat = () => {
                 </div>
             </div>
 
-            <div className="row row-columns">
-                <div className="col-lg-4 theme-diet">
-                    <div className="row">
-                        <div className="col-lg-3">
-                            <img src={icon2} alt="" />
-                        </div>
-                        <div className="col-lg-9">
-                            <h4 className="theme-diet-h"> </h4>
-                            Sea takimata sanctus est autem vel eum iriure.
-                        </div>
-                    </div>
-                </div>
+             <div className="row row-columns">
 
-                <div className="col-lg-4 theme-diet">
+                {
+                    list.map ( ({
+                        image,
+                        text
+                    }) => (
+                        <div className="col-lg-4 theme-diet">
+                            <YouAreWhatYouEatItem
+                                image={image}
+                                text={text}
+                            />
+                        </div>
+                    ))
+                }
+                
+
+                {/* <div className="col-lg-4 theme-diet">
                     <div className="row">
                         <div className="col-lg-3">
                             <img src={icon1} alt="" />
@@ -115,7 +113,7 @@ const YouAreWhatYouEat = () => {
                             Feugait nulla facilisi stet.
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

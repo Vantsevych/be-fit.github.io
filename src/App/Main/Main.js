@@ -1,7 +1,8 @@
 import React from 'react'
 
 import YouAreWhatYouEat from './YouAreWhatTouEat/YouAreWhatYouEat'
-import Blog from './Blog/Blog'
+import BlogList from './Blog/BlogList'
+import fruits from './dietitian3-about-pic1.png'
 
 
 const Main = () => {
@@ -16,7 +17,7 @@ const Main = () => {
 
             <div className="blog">
                 <div className="container blog-container">
-                    <Blog/>
+                    <BlogList/>
                 </div>
             </div>
 
@@ -36,7 +37,7 @@ const Main = () => {
 
                         </div>
                         <div className="col-lg-6 mission-right">
-                            <img src="dietitian3-about-pic1.png" alt="y" />
+                            <img src={fruits.png} alt="" />
                         </div>
                     </div>
                 </div>

@@ -260,7 +260,15 @@
         margin-bottom: 60px;
     }
 
+    .new-blog {
+        position: relative;
+        -padding: 0 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
 
+
+    
     .blog-1, .blog-2, .blog-3, .blog-4 {
         position: relative;
         padding: 0 10px;
@@ -270,7 +278,7 @@
         width: 100%;
     }
 
-    .blod-1-user, .blod-2-user, .blod-3-user, .blod-4-user {
+    .blog-1-user, .blog-2-user, .blog-3-user, .blog-4-user {
         position: relative;
         width: 85%;
         background-color: #fff;
